@@ -1,0 +1,23 @@
+{
+    "name": "dansoppelsa/advent-of-code-2025",
+    "version": "1.0.0",
+    "require": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdventOfCode\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan Soppelsa",
+            "email": "dsoppelsa@gmail.com"
+        }
+    ]
+}
