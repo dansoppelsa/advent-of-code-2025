@@ -2,6 +2,7 @@
     "name": "dansoppelsa/advent-of-code-2025",
     "version": "1.0.0",
     "require": {
+        "php": "^8.5",
         "phpunit/phpunit": "^12.5"
     },
     "autoload": {

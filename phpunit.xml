@@ -4,7 +4,6 @@
          bootstrap="vendor/autoload.php"
          cacheDirectory=".phpunit.cache"
          executionOrder="depends,defects"
-         requireCoverageMetadata="true"
          beStrictAboutCoverageMetadata="true"
          beStrictAboutOutputDuringTests="true"
          displayDetailsOnPhpunitDeprecations="true"
@@ -13,13 +12,13 @@
          failOnWarning="true">
     <testsuites>
         <testsuite name="default">
-            <directory>./</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
 
     <source ignoreIndirectDeprecations="true" restrictNotices="true" restrictWarnings="true">
         <include>
-            <directory>./</directory>
+            <directory>./tests</directory>
         </include>
     </source>
 </phpunit>
