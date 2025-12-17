@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Day03;
+namespace Tests\Day02;
 
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\TestCase;
 use AdventOfCode\Day02\EnhancedChecker;
 use AdventOfCode\Day02\Range;
+use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\TestCase;
 
 class RangeTest extends TestCase
 {
