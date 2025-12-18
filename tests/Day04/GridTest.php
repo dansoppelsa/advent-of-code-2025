@@ -15,6 +15,14 @@ class GridTest extends TestCase
         $this->assertCount(13, $grid->accessibleCells());
     }
 
+    public function test_it_can_count_total_removable_paper_rolls(): void
+    {
+        $contents = $this->getContents();
+        $grid = Grid::fromData($contents);
+
+        $this->assertCount(43, $grid->getRemovableCells());
+    }
+
     protected function getContents(): array
     {
         $path = __DIR__ . '../../../solutions/Day04/sample-input.txt';

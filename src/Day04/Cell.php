@@ -50,4 +50,10 @@ class Cell
 
         return count($paperTowel) < 4;
     }
+
+    public function setValue(string $value): self
+    {
+        $this->value = $value;
+        return $this;
+    }
 }
